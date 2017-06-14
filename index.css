@@ -28,6 +28,7 @@ a, a:visited {
 a:hover {
 	text-decoration: underline;
 	color: red;
+	background-color: yellow;
 }
 
 header {
@@ -44,10 +45,6 @@ ul {
 li {
 	list-style: none;
 	font-size: 18px;
-}
-
-li a:hover {
-	background-color: yellow;
 }
 
 figure {
