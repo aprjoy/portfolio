@@ -51,19 +51,17 @@ li a:hover {
 }
 
 figure {
-	margin: 0 0 20px 0;
+	margin: 0;
 }
 
 figure img {
 	float: left;
-	width: 20%;
 }
 
 figcaption {
 	display: inline;
 	float: left;
-	width: 80%;
-	margin-bottom: 20px;
+	max-width: 500px;
 }
 
 figcaption p {
@@ -101,10 +99,66 @@ ul.top_menu {
 	padding-top: 20px;
 }
 
+#bio {
+	line-height: 30px;
+}
+
+#headshot {
+	top: 55px;
+}
+
+#clip_wrap {
+	position: relative;
+}
+
+.clip_entry {
+	position: absolute;
+}
+
+#ai {
+	top: 10px;
+}
+
+#etsy {
+	top: 173px;
+}
+
+#hamlet {
+	top: 337px;
+}
+
+#iroko {
+	top: 501px;
+}
+
+#consensys {
+	top: 665px;
+}
+
+#blackflix {
+	top: 850px;
+}
+
+#bitcoin {
+	top: 1013px;
+}
+
+#toms {
+	top: 1177px;
+}
+
+#pg {
+	top: 1341px;
+}
+
 .clip_link {
 	background-color: yellow;
 }
 
-#bio {
-	line-height: 30px;
+#contact {
+	padding: 10px 0 0 0;
+}
+
+.social {
+	margin-bottom: 8px;
 }
