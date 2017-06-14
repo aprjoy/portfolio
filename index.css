@@ -73,12 +73,13 @@ figcaption p {
 ul.top_menu {
 	position: absolute;
 	display: inline;
-	margin: 8px 0;
+	margin: 13px 0;
 	right: 185px;
 }
 
 .top_menu li {
 	padding-bottom: 5px;
+	font-size: 16px;
 }
 
 .container {
