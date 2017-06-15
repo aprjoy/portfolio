@@ -8,10 +8,6 @@ h1 a, h1 a:visited, h1 a:hover {
 	background-color: transparent;
 }
 
-.container {
-	position: relative;
-}
-
 .before, .after {
 	border: 5px blue solid;
 }
