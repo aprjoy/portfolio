@@ -1,0 +1,23 @@
+main {
+	padding-left: 20px;
+}
+
+.container {
+	position: relative;
+}
+
+.before, .after {
+	border: 5px blue solid;
+}
+
+.before {
+	position: absolute;
+	left: 0;
+	z-index: 1;
+}
+
+.after {
+	position: absolute;
+	left: 0;
+	z-index: 0;
+}
