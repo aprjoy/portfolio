@@ -45,7 +45,6 @@ ul {
 
 li {
 	list-style: none;
-	font-size: 18px;
 }
 
 figure {
@@ -69,6 +68,7 @@ figcaption p {
 footer {
 	background-color: aqua;
 	width: 100%;
+	font-size: 15px;
     position: absolute;
     top: 2100px;
     padding-left: 20px;
