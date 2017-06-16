@@ -3,6 +3,7 @@ body {
 	font-size: 18px;
 	width: 70%;
 	margin: 0 auto;
+	position: relative;
 }
 
 h1 {
@@ -63,6 +64,14 @@ figcaption {
 
 figcaption p {
 	margin: 0 0 20px 30px;
+}
+
+footer {
+	background-color: aqua;
+	width: 100%;
+    position: absolute;
+    top: 2100px;
+    padding-left: 20px;
 }
 
 ul.top_menu {
