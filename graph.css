@@ -1,0 +1,38 @@
+main {
+	padding: 0 20px;
+}
+
+h1 a, h1 a:visited, h1 a:hover {
+	text-decoration: none;
+	color: black;
+	background-color: transparent;
+}
+
+h2 {
+	padding-top: 10px;
+}
+
+footer {
+    /*top: 970px;*/
+    bottom: 0px;
+}
+
+.before, .after {
+	border: 5px blue solid;
+}
+
+.before {
+	position: absolute;
+	left: 0;
+	z-index: 1;
+}
+
+.after {
+	position: absolute;
+	left: 0;
+	z-index: 0;
+}
+
+#datawrapper-chart-Pae3L {
+	margin: 40px 0;
+}

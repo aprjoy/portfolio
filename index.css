@@ -26,6 +26,7 @@ a, a:visited {
 	text-decoration: none;
 	color: purple;
 }
+
 a:hover {
 	text-decoration: underline;
 	color: red;
@@ -163,14 +164,14 @@ ul.top_menu {
 	font-weight: 300;
 }
 
-#contact {
+.widget {
 	padding: 10px 0 0 0;
 }
 
-.social {
+.side_menu {
 	margin-bottom: 8px;
 }
 
-#interactive {
+#graphic {
 	top: 269px;
 }
