@@ -52,18 +52,10 @@ figure {
 	margin: 0;
 }
 
-figure img {
-	float: left;
-}
-
 figcaption {
 	display: inline;
 	float: left;
 	max-width: 500px;
-}
-
-figcaption p {
-	margin: 0 0 20px 30px;
 }
 
 footer {
@@ -88,6 +80,14 @@ ul.top_menu {
 	font-size: 16px;
 }
 
+.clip_entry img {
+	float: left;
+}
+
+.clip_entry figcaption p {
+	margin: 0 0 20px 30px;
+}
+
 .container {
 	position: relative;
 	padding-top: 20px;
@@ -107,6 +107,27 @@ ul.top_menu {
 	padding-top: 20px;
 }
 
+.caption {
+	font-size: small;
+}
+
+.clip_entry {
+	position: absolute;
+}
+
+.clip_link {
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+.widget {
+	padding: 10px 0 0 0;
+}
+
+.side_menu {
+	margin-bottom: 8px;
+}
+
 #bio {
 	line-height: 30px;
 }
@@ -119,8 +140,8 @@ ul.top_menu {
 	position: relative;
 }
 
-.clip_entry {
-	position: absolute;
+#clips, #find_me {
+	margin-top: 20px;
 }
 
 #ai {
@@ -159,19 +180,6 @@ ul.top_menu {
 	top: 1341px;
 }
 
-.clip_link {
-	font-family: Helvetica, sans-serif;
-	font-weight: 300;
-}
-
-.widget {
-	padding: 10px 0 0 0;
-}
-
-.side_menu {
-	margin-bottom: 8px;
-}
-
 #graphic {
-	top: 269px;
+	top: 289px;
 }
