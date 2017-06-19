@@ -13,8 +13,7 @@ h2 {
 }
 
 footer {
-    /*top: 970px;*/
-    bottom: 0px;
+    top: 970px;
 }
 
 .before, .after {
