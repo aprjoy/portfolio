@@ -13,7 +13,9 @@ h2 {
 }
 
 footer {
-    top: 970px;
+    /*top: 970px;*/
+    top: unset;
+    bottom: -140px;
 }
 
 .before, .after {
