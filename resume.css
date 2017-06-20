@@ -9,7 +9,7 @@ main {
 }
 
 h2 {
-	padding: 10px 0 20px 0;
+	padding-top: 10px;
 }
 
 h3 {
@@ -21,7 +21,7 @@ h3 {
 }
 
 footer {
-	top: 1290px;
+	top: 1320px;
 }
 
 #sidebar h2 {
@@ -32,12 +32,13 @@ footer {
 	padding-left: 0;
 }
 
-.resume{
-	margin-bottom: 30px;
+.download {
+	font-size: small;
+	margin: 0 0 40px 0;
 }
 
-.entry {
-
+.resume{
+	margin-bottom: 30px;
 }
 
 .entry_head {
@@ -52,8 +53,12 @@ footer {
 	margin-top: 2px;
 }
 
+#resume_hed {
+	margin-bottom: 10px;
+}
+
 #headshot {
-	top: 190px;
+	top: 175px;
 }
 
 #sidebar {
