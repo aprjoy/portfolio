@@ -1,18 +1,18 @@
 body {
     font-family: Georgia, serif;
-    font-size: 18px;
+    font-size: 15px;
     width: 70%;
     margin: 0 auto;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 400;
     display: inline;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 300;
 }
 
@@ -29,6 +29,10 @@ a:hover {
     text-decoration: underline;
     color: red;
     background-color: yellow;
+}
+
+main {
+    margin: 0 20px;
 }
 
 header, footer {
@@ -61,18 +65,12 @@ ul.top_menu {
     position: absolute;
     display: inline;
     right: 28%;
-    padding-top: 15px;
+    padding-top: 7px;
 }
 
 .top_menu li {
     padding-bottom: 5px;
     font-size: 16px;
-}
-
-.container {
-    display: inline-block;
-    margin: 0 20px;
-    width: 100%;
 }
 
 .caption {
