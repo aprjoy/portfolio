@@ -60,7 +60,7 @@ footer {
 ul.top_menu {
     position: absolute;
     display: inline;
-    right: 28%;
+    right: 29.5%;
     padding-top: 7px;
 }
 
@@ -77,11 +77,11 @@ ul.top_menu {
 
 .caption {
     font-size: small;
-    width: 80%;
 }
 
 .bio {
     line-height: 30px;
+    max-width: 65%;
 }
 
 .widget {
