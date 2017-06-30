@@ -82,11 +82,13 @@ ul.top_menu {
 .bio {
     line-height: 30px;
     max-width: 65%;
+    float: left;
+    margin-right: 30px;
 }
 
 .widget {
     width: 26%;
-    float: right;
+    float: left;
 }
 
 .widget_menu {
@@ -95,6 +97,7 @@ ul.top_menu {
 
 .main_column {
     width: 74%;
+    float: left;
 }
 
 .clip_entry {
@@ -107,18 +110,14 @@ ul.top_menu {
     margin-top: 0;
 }
 
-.clip_content {
-    float: left;
-}
-
 .clip_description {
-    margin-left: 20px;
-    max-width: 488px;
+    margin-top: 20px;
+    max-width: 80%;
     padding-bottom: 40px;
 }
 
 .headshot {
     width: 26%;
-    float: right;
+    float: left;
     margin: auto 0 auto 40px;
 }
