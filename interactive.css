@@ -1,19 +1,20 @@
-main {
-	padding: 0 20px;
-}
-
 h1 a, h1 a:visited, h1 a:hover {
 	text-decoration: none;
 	color: black;
 	background-color: transparent;
 }
 
-h2 {
-	padding-top: 10px;
+main p {
+	line-height: 30px;
 }
 
-footer {
-    top: 830px;
+figure {
+	position: relative;
+	margin: 50px 0;
+}
+
+.container {
+	max-width: 960px;
 }
 
 .before, .after {
@@ -27,7 +28,5 @@ footer {
 }
 
 .after {
-	position: absolute;
-	left: 0;
 	z-index: 0;
 }

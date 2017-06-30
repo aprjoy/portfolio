@@ -1,37 +1,15 @@
-main {
-	padding: 0 20px;
-}
-
 h1 a, h1 a:visited, h1 a:hover {
 	text-decoration: none;
 	color: black;
 	background-color: transparent;
 }
 
-h2 {
-	padding-top: 10px;
+main p {
+	line-height: 30px;
 }
 
-footer {
-    /*top: 970px;*/
-    top: unset;
-    bottom: -140px;
-}
-
-.before, .after {
-	border: 5px blue solid;
-}
-
-.before {
-	position: absolute;
-	left: 0;
-	z-index: 1;
-}
-
-.after {
-	position: absolute;
-	left: 0;
-	z-index: 0;
+.container {
+	max-width: 960px;
 }
 
 #datawrapper-chart-Pae3L {

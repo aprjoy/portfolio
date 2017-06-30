@@ -4,14 +4,6 @@ h1 a, h1 a:visited, h1 a:hover {
 	background-color: transparent;
 }
 
-main {
-	padding: 0 20px;
-}
-
-h2 {
-	padding-top: 20px;
-}
-
 h3 {
 	font-family: Helvetica, sans-serif;
 	font-size: 18px;
@@ -20,16 +12,8 @@ h3 {
 	padding-bottom: 10px;
 }
 
-footer {
-	top: 1320px;
-}
-
-#sidebar h2 {
-	padding-bottom: 0;
-}
-
-.left_col {
-	padding-left: 0;
+figure {
+	margin: 30px 0 0 0;
 }
 
 .download {
@@ -37,31 +21,34 @@ footer {
 	margin: 0 0 40px 0;
 }
 
-.resume{
+.entry {
 	margin-bottom: 30px;
 }
 
-.entry_head {
-	position: relative;
+.last {
+	margin-bottom: 50px;
+}
+
+.company {
+	margin: 40px 0 30px 0;
+}
+
+.job_title {
+	margin: 20px 0 5px 0;
+}
+
+.training_description {
+	margin: 10px 0 25px 0;
+	font-style: italic;
 }
 
 .date {
-	position: absolute;
-	left: 430px;
 	color: grey;
 	font-size: 16px;
 	margin-top: 2px;
+	display: block;
 }
 
-#resume_hed {
+#resume_head {
 	margin-bottom: 10px;
-}
-
-#headshot {
-	top: 175px;
-}
-
-#sidebar {
-	position: absolute;
-    top: 510px;
 }
