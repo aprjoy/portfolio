@@ -33,11 +33,11 @@ figure {
 	margin: 40px 0 30px 0;
 }
 
-.job_title {
+.job-title {
 	margin: 20px 0 5px 0;
 }
 
-.training_description {
+.training-description {
 	margin: 10px 0 25px 0;
 	font-style: italic;
 }
@@ -49,6 +49,11 @@ figure {
 	display: block;
 }
 
-#resume_head {
+.widget img {
+	width: 100%;
+    min-width: 150px;
+}
+
+#resume-head {
 	margin-bottom: 10px;
 }
